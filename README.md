@@ -75,4 +75,4 @@ After running the analysis, following insights were found:
 3. Gender do not appear to be significant predictors of student performance<br>
 4. Students who have Parental Education Level only of "High School" have more "Fail count" compared to others<br>
 
-Find more details [visit here]()
+Find more details [visit here](https://www.linkedin.com/pulse/students-performance-exams-case-study-data-analysis-jainesh-rathod)
