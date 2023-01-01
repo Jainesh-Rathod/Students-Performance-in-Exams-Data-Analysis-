@@ -4,50 +4,50 @@
 We have students results for 3 subjects and we have to analyze & understand the factors that influence student performance. We can find insights about which factors are most strongly correlated with student success, and this information can be used to improve student outcomes. 
 
 <H2>Data:</H2>
-The data set includes information about student demographics and academic performance. The data set includes the following variables:
+The data set includes information about student demographics and academic performance. The data set includes the following variables:<br>
 
-Gender: the gender of the student
-Reading Score: the student's score on a reading test
-Math Score: the student's score on a math test
-Writing Score: the student's score on a writing test
-Lunch: the type of lunch the student received (free/reduced price or paid)
-Test Preparation Course: whether or not the student received test preparation support
-Parental Level of Education: education qualification of the Student's parent
-You can find more information about the dataset and access the data itself on the Kaggle website: https://www.kaggle.com/spscientist/students-performance-in-exams
+Gender: the gender of the student<br>
+Reading Score: the student's score on a reading test<br>
+Math Score: the student's score on a math test<br>
+Writing Score: the student's score on a writing test<br>
+Lunch: the type of lunch the student received (free/reduced price or paid)<br>
+Test Preparation Course: whether or not the student received test preparation support<br>
+Parental Level of Education: education qualification of the Student's parent<br>
+You can find more information about the dataset and access the data itself on the Kaggle website: https://www.kaggle.com/spscientist/students-performance-in-exams<br>
 
 <H3>Data Wrangling - </H3>
 
-#renaming column name with space or special characters in between
+#renaming column name with space or special characters in between<br>
 
-column `math score` to `math_score`
-column `reading score` to `reading_score`
-column `writing score` to `writing_score`
-column `parental level of education` to `parents_education`
-column `race/ethnicity` to `race`
-column `test preparation course` to `course`
+column `math score` to `math_score`<br>
+column `reading score` to `reading_score`<br>
+column `writing score` to `writing_score`<br>
+column `parental level of education` to `parents_education`<br>
+column `race/ethnicity` to `race`<br>
+column `test preparation course` to `course`<br>
 
-Note - here we have to use Backtick (`) and not (') Single quotation marks.
+Note - here we have to use Backtick (`) and not (') Single quotation marks.<br>
 
-#Updated values
+#Updated values<br>
 
-In Column Lunch, updated value "free/reduced" to "discounted"
+In Column Lunch, updated value "free/reduced" to "discounted"<br>
 
-In Column parents_education, updated value "some high school" to "high school"
+In Column parents_education, updated value "some high school" to "high school"<br>
 
 <H3>Data Cleaning - </H3>
 
-Checked for Null Values = 0
-Deleted un-necessary Column = "race"
+Checked for Null Values = 0<br>
+Deleted un-necessary Column = "race"<br>
 
 <H3>New Columns/Variables -</H3>
 
-Math_Status: If math_score < 33 then Fail else Pass
-Reading_Status: If reading_score < 33 then Fail else Pass
-Writing_Status: If writing_score < 33 then Fail else Pass
-Result: If a student has Passed in all 3 subject's then Pass else Fail
-Maths_Grade: Provided grade to students based on math_Score
-Reading_Grade: Provided grade to students based on reading_Score
-Writing_Grade: Provided grade to students based on writing_Score
+Math_Status: If math_score < 33 then Fail else Pass<br>
+Reading_Status: If reading_score < 33 then Fail else Pass<br>
+Writing_Status: If writing_score < 33 then Fail else Pass<br>
+Result: If a student has Passed in all 3 subject's then Pass else Fail<br>
+Maths_Grade: Provided grade to students based on math_Score<br>
+Reading_Grade: Provided grade to students based on reading_Score<br>
+Writing_Grade: Provided grade to students based on writing_Score<br>
 
 <H4>Grade Criteria - For all subjects</H4>
 
